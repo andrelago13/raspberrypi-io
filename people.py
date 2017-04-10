@@ -10,6 +10,8 @@
 #    Right: 5V                                                      #
 #    Switch: with the "border" pin free (repeating-trigger mode)    #
 # ###################################################################
+import RPi.GPIO as GPIO
+import time
 
 light_pin = 18
 sensor_pin = 7
